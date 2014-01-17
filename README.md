@@ -4,8 +4,8 @@ Generates a DX1 file given a sample corpus for the Basque language.
 
 Requirements
 ------------
-⋅ Python 3
-⋅ [Regex](https://pypi.python.org/pypi/regex)
+* Python 3
+* [Regex](https://pypi.python.org/pypi/regex)
 
 Generating DX1 Files
 --------------------
