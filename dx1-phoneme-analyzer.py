@@ -6,7 +6,8 @@ def read_dx1(infile, d):
 
 	dx1_reader = csv.reader(infile, delimiter=d)
 	for row in dx1_reader:
-		phonemes.update(Counter(row[2].split()))
+		row_phonemes = row[2].split() if len(row) <= 3 else row[2:]
+		phonemes.update(Counter(row_phonemes))
 
 	return phonemes
 
